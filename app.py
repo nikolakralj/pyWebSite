@@ -19,5 +19,11 @@ def list_jobs():#this is a function retruning json data
 # when people say rest API or JSON API or API endpoint that mean that my webserver 
 # is not returning only html but it is returning json data or rest data...
 # so when someone call this url it will return json data to same url
-if __name__ == "__main__":
-    app.run(host='0.0.0.0', debug=True)
+
+@app.route("/job/<id>")
+
+def show_job(id):
+    print("hello")
+if __name__== '_main__':
+    app.run(host='0.0.0.0',debug=True)
+    
