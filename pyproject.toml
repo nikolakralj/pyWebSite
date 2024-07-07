@@ -9,6 +9,9 @@ packages = [{include = "repl_nix_pywebsite"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 flask = "^3.0.3"
+psycopg2-binary = "^2.9.9"
+python-dotenv = "^1.0.1"
+connect = "^0.2"
 
 
 [build-system]
